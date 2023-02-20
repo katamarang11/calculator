@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Калькулятор</title>
+  </head>
+  <body>
+    <div class="the-background">
+      <div class="calculator-wrapper">
+        <div class="calculator-buttons">
+          <div class="calculator-screen">0</div>
+          <div class="input-buttons">
+            <div class="calculator-number-buttons">
+              <button class="number-dimensions delete-all-button" id="clear">
+                C
+              </button>
+              <button class="number-dimensions" id="delete-last">&larr;</button>
+              <button value="7" class="number-dimensions number">7</button>
+              <button value="8" class="number-dimensions number">8</button>
+              <button value="9" class="number-dimensions number">9</button>
+              <button value="4" class="number-dimensions number">4</button>
+              <button value="5" class="number-dimensions number">5</button>
+              <button value="6" class="number-dimensions number">6</button>
+              <button value="1" class="number-dimensions number">1</button>
+              <button value="2" class="number-dimensions number">2</button>
+              <button value="3" class="number-dimensions number">3</button>
+              <button
+                value="0"
+                class="number-dimensions delete-zero-button number"
+              >
+                0
+              </button>
+            </div>
+            <div class="calculator-operator-buttons button-color">
+              <button
+                value="/"
+                class="number-dimensions button-color operators-num"
+              >
+                &#247;
+              </button>
+              <button
+                value="*"
+                class="number-dimensions button-color operators-num"
+              >
+                &#215;
+              </button>
+              <button
+                value="-"
+                class="number-dimensions button-color operators-num"
+              >
+                &#8722;
+              </button>
+              <button
+                value="+"
+                class="number-dimensions button-color operators-num"
+              >
+                &#43;
+              </button>
+              <button
+                class="number-dimensions button-color"
+                id="sum-withdrawal"
+              >
+                =
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/logika.js"></script>
+  </body>
+</html>
